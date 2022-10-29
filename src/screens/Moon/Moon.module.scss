@@ -4,4 +4,16 @@
     width: 72px;
     top: 25%;
     left: 25%;
+    animation: moon 2s ease 0s infinite normal forwards;
+    transition: all ease 1.5s;
+    transform-origin: 24px 24px;
+}
+
+@keyframes moon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
